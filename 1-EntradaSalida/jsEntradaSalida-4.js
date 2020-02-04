@@ -4,6 +4,13 @@
 */
 function mostrar()
 {
+/*var dato;
+dato = prompt("Ingrese el dato");
+document.getElementById("elNombre").value = dato;
+*/
+
+
+document.getElementById("elNombre").value = prompt("Ingrese el dato");
 
 }
 
