@@ -8,8 +8,8 @@ edad= document.getElementById("edad").value;
 
 if (edad>= 18){
     alert("Es mayor de edad, tiene " + edad);
-    }else{
+}else{
     alert("No es mayor de edad, tiene " + edad);
-}
+    }
 
 }//FIN DE LA FUNCIÓN

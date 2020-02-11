@@ -35,7 +35,7 @@ function Circulo ()
     radio= document.getElementById("Radio").value;
     radio= parseInt(radio);
     //2*pi*radio
-    perimetro= 2* 3.1415926589793 * radio;
+    perimetro= 2* Math.PI * radio;  //Math pi es una variable con valor pi
     cantidadAlambre = perimetro * 3;
     alert(cantidadAlambre);
 
