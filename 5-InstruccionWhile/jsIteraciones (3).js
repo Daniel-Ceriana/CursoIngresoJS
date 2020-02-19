@@ -1,6 +1,6 @@
 function mostrar()
 {
-
+/*SOLO WHILE--------------------------------------------------------------------------------
 var clave = prompt("ingrese el número clave.");
 var contador= 0;
 
@@ -23,5 +23,9 @@ var contador= 0;
     }else{
         alert("Error, muchos intentos");
     }
-    
+    Fin de solo while ------------------------------------------------------------------*/
+
+
+var clave;
+
 }//FIN DE LA FUNCIÓN
