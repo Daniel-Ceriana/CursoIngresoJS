@@ -13,7 +13,7 @@ var numerosPares = 0;
 var numerosImpares = 0;
 var UnoAlCien = 0;
 var contadorDivisibles = 0;
-
+var contadorNumerosPrimos = 0
 
 
 function ComenzarIngreso(){
@@ -64,8 +64,10 @@ function NumerosDivisibles(){
 //Ejercicio D
 function VerificarPrimo(){
     ComenzarIngreso()
-
-                    if(numero % 2== 0 && numero!= 2){
+                if (numero == 1){
+                    console.log("No es primo")
+                }else{
+                    if(numero % 2== 0 && numero!= 2 ){
                     console.log("No es primo");
                 }else{
                     if(numero % 3 == 0 && numero!=3){
@@ -86,10 +88,50 @@ function VerificarPrimo(){
             }
         }
     }
+    }
+}
 
 //Ejecicio F
-function NumerosPrimos()
+function NumerosPrimos(){
+    ComenzarIngreso()
+     contadorNumerosPrimos = 0;
+    var i= numero;
+   while(i != 0){
 
 
+        console.log(i);
 
+
+                if(i == 1){
+                    console.log("No es primo");
+                }else{
+
+                    if(i % 2== 0 && i!= 2){
+                    console.log("No es primo");
+                }else{
+                    if(i % 3 == 0 && i!=3){
+                    console.log("No es primo");
+                }else{
+                    if(i % 5== 0 && i!=5){
+                    console.log("No es primo");    
+                }else{
+                    if(i % 7 == 0 && i!=7){
+                    console.log("No es primo");
+                }else{
+                    if(i % 11== 0 && i!=11){
+                        console.log("No es primo");
+                }else{
+                        contadorNumerosPrimos+=1
+                    }
+                    }   
+                    }
+                    }
+                    }    
+                    }
+        console.log("numeros primos: "+contadorNumerosPrimos);
+       
+        i--;
+
+
+    }
 }
