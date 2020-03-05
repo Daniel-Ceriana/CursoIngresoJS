@@ -58,7 +58,7 @@ function mostrar()
             alert("La nota más baja es: " + notaMasBaja + " Y la obtuvo un hombre");
             break;
     }
-    
+    //
     // C) Varones con nota mayor o igual a 6
    alert("La cantidad de varones con nota mayor o igual a 6 es: " + varonesSeisOMas);
 }
